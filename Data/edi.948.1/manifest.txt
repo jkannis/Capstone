@@ -1,5 +1,0 @@
-Manifest file for edi.948.1-4c9184f37cff01bcdc32dc486ec36961.zip created on Fri Oct 08 10:42:02 MDT 2021
-UWMadisonArb_JNorth_Project_Hummingbirds_1996-2020.csv (45465908 bytes)
-edi.948.1.xml (66587 bytes)
-edi.948.1.txt (34120 bytes)
-edi.948.1.report.xml (32256 bytes)
