@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="edi.949.1" system="https://pasta.edirepository.org"
+  xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd">
+  <access
+    authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document"
+      system="https://pasta.edirepository.org">
+    <allow><principal>uid=EDI,o=EDI,dc=edirepository,dc=org</principal><permission>all</permission></allow><allow>
+      <principal>uid=dbjourneynorth,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier
+        system="https://doi.org">doi:10.6073/pasta/f7d7bef57f94b33b8a18a26954252412</alternateIdentifier><title>Journey North - Monarch Butterfly and Milkweed observations by volunteer community scientists across Central and North America (1996-2020)</title>
+    <creator>
+      <individualName>
+        <givenName>Nancy</givenName>
+        <surName>Sheehan</surName>
+      </individualName>
+      <organizationName>University of Wisconsin - Madison Arboretum, Journey North Program</organizationName>
+      <positionName>Program Coordinator</positionName>
+      <electronicMailAddress>nsheehan@wisc.edu</electronicMailAddress>
+      <userId
+        directory="https://orcid.org">0000-0002-2632-0796</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Luis</givenName>
+        <surName>Weber-Grullon</surName>
+      </individualName>
+      <organizationName>University of Wisconsin - Madison</organizationName>
+      <positionName>Data Manager (EDI Fellow)</positionName>
+      <electronicMailAddress>luisweberg@gmail.com</electronicMailAddress>
+      <userId
+        directory="https://orcid.org">0000-0002-6548-8268</userId>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Luis</givenName>
+        <surName>Weber-Grullon</surName>
+      </individualName>
+      <positionName>Data Manager (EDI Fellow)</positionName>
+      <address>
+        <postalCode>85281-2443</postalCode>
+      </address>
+      <electronicMailAddress>luisweberg@gmail.com</electronicMailAddress>
+      <userId
+        directory="https://orcid.org">0000-0002-6548-8268</userId>
+      <role>Data Manager (EDI Fellow)</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Garrett</givenName>
+        <surName>Smith</surName>
+      </individualName>
+      <organizationName>University of Wisconsin - Madison</organizationName>
+      <positionName>Software Developer</positionName>
+      <electronicMailAddress>garrett.smith@wisc.edu</electronicMailAddress>
+      <role>Software Developer</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Annie</givenName>
+        <surName>Isenbarger</surName>
+      </individualName>
+      <organizationName>University of Wisconsin - Madison Arboretum</organizationName>
+      <positionName>Data Verifier</positionName>
+      <electronicMailAddress>annie.isenbarger@wisc.edu</electronicMailAddress>
+      <role>Data Verifier</role>
+    </associatedParty>
+    <pubDate>2021-08-20</pubDate><abstract>
+      <para>This data package contains monarch migration data (1996 - 2020) across North America collected by 42,518 community scientists for Journey North, a crowdsourced participatory science program of the University of Wisconsin-Madison Arboretum. The Journey North Monarch and Milkweed project is an ongoing study of monarch migration phenology conducted at broad spatial and temporal scales. Since 1996, community scientists have tracked first arrival dates and breeding and feeding behavior as well as the onset of fall migration, fall roosts, and peak migration events. Community scientists have also tracked the first emergence of milkweed in the spring and the presence of milkweed across the landscape during the summer, fall-winter months. The focal species is the Monarch Butterfly, Danaus plexippus. Community scientists indicate when known milkweed species in submitted comments. </para>
+      <para>Journey North data is observational and often opportunistic in nature. Observers do provide estimates of the number of adult monarch butterflies sighted during an observation. However, observers do not follow standardized methods for counting species observed. Observers do not observe at set times of the day; do not repeat observations regularly, and are not required to provide the length of time during which a specified number of species observed were counted. Therefore, it is recommended that this dataset be analyzed to indicate presence, not abundance. Additional contextual information is provided as text in the comments field of the dataset. The Journey North Monarch and Milkweed project dataset is hosted by the University of Wisconsin-Madison Shared Web Hosting Service.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>participatory science</keyword>
+      <keyword>citizen science</keyword>
+      <keyword
+        keywordType="taxonomic">Monarch butterfly</keyword>
+      <keyword
+        keywordType="theme">insect migration</keyword>
+      <keyword
+        keywordType="taxonomic">Danaus plexippus</keyword>
+      <keyword
+        keywordType="theme">community science</keyword>
+      <keyword
+        keywordType="taxonomic">Milkweed</keyword>
+      <keyword
+        keywordType="place">North America</keyword>
+      <keyword
+            keywordType="place">Mexico</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>phenology</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>North and Central America</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-165.107</westBoundingCoordinate>
+          <eastBoundingCoordinate>-52.883</eastBoundingCoordinate>
+          <northBoundingCoordinate>65.136</northBoundingCoordinate>
+          <southBoundingCoordinate>-12.1</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1996-03-26</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2020-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Kingdom</taxonRankName>
+          <taxonRankValue>Metazoa</taxonRankValue>
+          <commonName>metazoans</commonName>
+          <taxonId
+              provider="https://www.ncbi.nlm.nih.gov/taxonomy">33208</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>Phylum</taxonRankName>
+            <taxonRankValue>Arthropoda</taxonRankValue>
+            <commonName>arthropods</commonName>
+            <taxonId
+                provider="https://www.ncbi.nlm.nih.gov/taxonomy">6656</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>Subphylum</taxonRankName>
+              <taxonRankValue>Hexapoda</taxonRankValue>
+              <commonName>insects</commonName>
+              <taxonId
+                  provider="https://www.ncbi.nlm.nih.gov/taxonomy">6960</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>Class</taxonRankName>
+                <taxonRankValue>Insecta</taxonRankValue>
+                <commonName>true insects</commonName>
+                <taxonId
+                    provider="https://www.ncbi.nlm.nih.gov/taxonomy">50557</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>Subclass</taxonRankName>
+                  <taxonRankValue>Pterygota</taxonRankValue>
+                  <commonName>winged insects</commonName>
+                  <taxonId
+                      provider="https://www.ncbi.nlm.nih.gov/taxonomy">7496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>Infraclass</taxonRankName>
+                    <taxonRankValue>Neoptera</taxonRankValue>
+                    <taxonId
+                        provider="https://www.ncbi.nlm.nih.gov/taxonomy">33340</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>Superorder</taxonRankName>
+                      <taxonRankValue>Amphiesmenoptera</taxonRankValue>
+                      <taxonId
+                          provider="https://www.ncbi.nlm.nih.gov/taxonomy">85604</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>Order</taxonRankName>
+                        <taxonRankValue>Lepidoptera</taxonRankValue>
+                        <commonName>butterflies and moths</commonName>
+                        <taxonId
+                            provider="https://www.ncbi.nlm.nih.gov/taxonomy">7088</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>Suborder</taxonRankName>
+                          <taxonRankValue>Glossata</taxonRankValue>
+                          <taxonId
+                              provider="https://www.ncbi.nlm.nih.gov/taxonomy">41191</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>Infraorder</taxonRankName>
+                            <taxonRankValue>Neolepidoptera</taxonRankValue>
+                            <taxonId
+                                provider="https://www.ncbi.nlm.nih.gov/taxonomy">41196</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>Superfamily</taxonRankName>
+                              <taxonRankValue>Papilionoidea</taxonRankValue>
+                              <commonName>butterflies</commonName>
+                              <taxonId
+                                  provider="https://www.ncbi.nlm.nih.gov/taxonomy">37572</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>Family</taxonRankName>
+                                <taxonRankValue>Nymphalidae</taxonRankValue>
+                                <commonName>brushfoots</commonName>
+                                <taxonId
+                                    provider="https://www.ncbi.nlm.nih.gov/taxonomy">33415</taxonId>
+                                <taxonomicClassification>
+                                  <taxonRankName>Subfamily</taxonRankName>
+                                  <taxonRankValue>Danainae</taxonRankValue>
+                                  <taxonId
+                                    provider="https://www.ncbi.nlm.nih.gov/taxonomy">127218</taxonId>
+                                  <taxonomicClassification>
+                                    <taxonRankName>Genus</taxonRankName>
+                                    <taxonRankValue>Danaus</taxonRankValue>
+                                    <taxonId
+                                    provider="https://www.ncbi.nlm.nih.gov/taxonomy">13036</taxonId>
+                                    <taxonomicClassification>
+                                    <taxonRankName>Subgenus</taxonRankName>
+                                    <taxonRankValue>Danaus</taxonRankValue>
+                                    <taxonId
+                                    provider="https://www.ncbi.nlm.nih.gov/taxonomy">151542</taxonId>
+                                    <taxonomicClassification>
+                                    <taxonRankName>Species</taxonRankName>
+                                    <taxonRankValue>Danaus plexippus</taxonRankValue>
+                                    <commonName>monarch butterfly</commonName>
+                                    <taxonId
+            provider="https://www.ncbi.nlm.nih.gov/taxonomy">13037</taxonId>
+                                    </taxonomicClassification>
+                                    </taxonomicClassification>
+                                  </taxonomicClassification>
+                                </taxonomicClassification>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Kingdom</taxonRankName>
+          <taxonRankValue>Viridiplantae</taxonRankValue>
+          <commonName>green plants</commonName>
+          <taxonId
+              provider="https://www.ncbi.nlm.nih.gov/taxonomy">33090</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>Phylum</taxonRankName>
+            <taxonRankValue>Streptophyta</taxonRankValue>
+            <taxonId
+                provider="https://www.ncbi.nlm.nih.gov/taxonomy">35493</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>Subphylum</taxonRankName>
+              <taxonRankValue>Streptophytina</taxonRankValue>
+              <taxonId
+                  provider="https://www.ncbi.nlm.nih.gov/taxonomy">131221</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>Class</taxonRankName>
+                <taxonRankValue>Magnoliopsida</taxonRankValue>
+                <commonName>flowering plants</commonName>
+                <taxonId
+                    provider="https://www.ncbi.nlm.nih.gov/taxonomy">3398</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>Order</taxonRankName>
+                  <taxonRankValue>Gentianales</taxonRankValue>
+                  <taxonId
+                      provider="https://www.ncbi.nlm.nih.gov/taxonomy">4055</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>Family</taxonRankName>
+                    <taxonRankValue>Apocynaceae</taxonRankValue>
+                    <commonName>dogbane family</commonName>
+                    <taxonId
+                        provider="https://www.ncbi.nlm.nih.gov/taxonomy">4056</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>Subfamily</taxonRankName>
+                      <taxonRankValue>Asclepiadoideae</taxonRankValue>
+                      <taxonId
+                          provider="https://www.ncbi.nlm.nih.gov/taxonomy">167484</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus</taxonRankName>
+                        <taxonRankValue>Asclepias</taxonRankValue>
+                        <taxonId
+                            provider="https://www.ncbi.nlm.nih.gov/taxonomy">21199</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>Species</taxonRankName>
+                          <taxonRankValue>Asclepias syriaca</taxonRankValue>
+                          <taxonId
+        provider="https://www.ncbi.nlm.nih.gov/taxonomy">48545</taxonId>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>This is an ongoing data set that is being maintained by the University of Wisconsin - Madison Arboretum, Journey North program.</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Nancy</givenName>
+        <surName>Sheehan</surName>
+      </individualName>
+      <organizationName>University of Wisconsin - Madison Arboretum, Journey North Program</organizationName>
+      <positionName>Program Coordinator</positionName>
+      <electronicMailAddress>nsheehan@wisc.edu</electronicMailAddress>
+      <userId
+          directory="https://orcid.org">0000-0002-2632-0796</userId>
+    </contact>
+    <publisher><organizationName>Environmental Data Initiative</organizationName><electronicMailAddress>info@environmentaldatainitiative.org</electronicMailAddress><onlineUrl>https://environmentaldatainitiative.org</onlineUrl></publisher><pubPlace>Environmental Data Initiative</pubPlace><methods>
+      <methodStep>
+        <description>
+          <para>Data Collection:</para>
+          <para/>
+          <para>After registering with https://journeynorth.org/reg/, citizen community scientists (hereinafter volunteers or observers) enter their observations (or “sightings”) by visiting https://journeynorth.org/sightings/ and selecting the phenological event reporting categories that most fit their observations. The occurrence of a phenological event can be determined by a single date and time of a life cycle stage. For the Journey North program, the first arrival date of a monarch butterfly or first emergency of milkweed species in the spring is an example of such a phenological event reporting category. (As noted by USA-NPN: The definition of the term “phenological event” has not yet been standardized and varies among scientists. USA-NPN website.)</para>
+          <para/>
+          <para>Once a reporting category has been selected, the volunteers enter additional information about their observations (or “sightings”) including:</para>
+          <para>•	location of observations (based on known street address, Google Maps location picker, or known latitude/longitude coordinates) (required field)</para>
+          <para>•	number of individual species observed (optional field)</para>
+          <para>•	date of observations (required field)</para>
+          <para>•	comments describing ecological context (optional field)</para>
+          <para>•	photo voucher of observations (optional field)</para>
+          <para/>
+          <para/>
+          <para>Once the information has been entered, volunteers click on “Submit Report” to complete the process. Journey North provides online support for volunteers. Protocols and identification tips are described on the website. Journey North also fields inquiries via a helpline.</para>
+        </description>
+        <instrumentation>Website for report a sighting: https://journeynorth.org/projects</instrumentation>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Data verification:</para>
+          <para/>
+          <para>Journey North also uses a multipronged data verification process which includes: </para>
+          <para>1) Expert review by project staff. </para>
+          <para>2) Digital vouchers - photo submissions. </para>
+          <para>3) Contacting participants about unusual reports. </para>
+          <para>4) Participants known and qualified. </para>
+          <para>5) Data triangulation --corroboration from other data sources, e.g., remote sensing data, qualitative data, historical trend data. </para>
+          <para>6) Data quality documentation -- metadata documentation</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Data processing and cleaning.</para>
+          <para/>
+          <para>Once the dataset was downloaded from the Journey North private server, it was imported into a Jupyter Notebook running in Python 3 as the programming language. The cleaning process included: </para>
+          <para>1) The identification and correction of any inconsistencies in formatting for each column of the dataset, while keeping the meaning of the data intact.</para>
+          <para>2) The creation of a copy of the original version of any column to be modified, as well as the creation of another column to flag any type of modification that an observational report value may be subject to.  </para>
+          <para>2) Filling gaps for the ‘customerid’ column by using the emails of each observational report as a unique identifier, followed by the exclusion of the emails from the dataset to ensure the privacy of our volunteers. </para>
+          <para>3) Fixing typos on the reporting categories that occurred because some of the older data were entered manually in our system, rather than using our current drop-down menu option. </para>
+          <para>4) Replacing any empty value with a standard code ‘-999999.999’ given that not all of the information provided by the users are required fields on the online platform. </para>
+          <para>5) Ensuring that each column data type was in fact consistent with the type of data that it contained. </para>
+          <para>6) Rounding up longitude and latitude values to only 3 decimals after the dot to ensure the privacy of our volunteers. </para>
+          <para>7) Excluding any observational report that seems beyond recovery in terms of its reliability due to different reasons such as: a) missing latitude and longitude, b) missing email AND customerid together, c) dates of sightings seem to be extremely old (before Journey North foundation).</para>
+          <para>8) Ensuring that there were not any duplicates of any observational report.</para>
+        </description>
+        <instrumentation>MySQL Server, Jupyter Notebook (Python), OpenRefine, Git &amp; Github. </instrumentation>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Monarch Butterfly Migration and Milkweed Phenology in North America (1996-2020)</title>
+      <personnel>
+        <individualName>
+          <givenName>Nancy</givenName>
+          <surName>Sheehan</surName>
+        </individualName>
+        <organizationName>University of Wisconsin - Madison Arboretum</organizationName>
+        <positionName>Journey North Program Coordinator</positionName>
+        <electronicMailAddress>nsheehan@wisc.edu</electronicMailAddress>
+        <userId
+          directory="https://orcid.org">0000-0002-2632-0796</userId>
+        <role>Journey North Program Coordinator</role>
+      </personnel>
+      <abstract>
+        <para>Launched in 1993, the Journey North program had three goals: 1) To understand how species respond, across spatial and temporal scales, to climate change. 2) To understand the migration patterns and distribution of species during breeding and overwintering, across spatial and temporal scales, to inform land management and conservation decisions (such as critical habitat designations). 3) To build public awareness of habitat requirements of migratory species that span their life cycles to spur conservation efforts.</para>
+      </abstract>
+      <award>
+        <funderName>Annenberg Foundation </funderName>
+        <title>Journey North Program (1994-2018)</title>
+      </award>
+      <award>
+        <funderName>University of Wisconsin - Madison Arboretum (Institutional Support)</funderName>
+        <title>Journey North Program (2018 - present)</title>
+      </award>
+    </project>
+    <dataTable>
+      <entityName>UWMadisonArb_JNorth_Project_MonarchsAndMilkweed_1996-2020</entityName>
+      <entityDescription>Journey North - Observational data for monarchs migration and milkweed across North and Central America (1996-2020)</entityDescription>
+      <physical>
+        <objectName>UWMadisonArb_JNorth_Project_MonarchsAndMilkweed_1996-2020.csv</objectName>
+        <size
+          unit="byte">71611741</size>
+        <authentication
+            method="MD5">a062a78f9b0e969c2ca627d6934d636d</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/edi/949/1/02f2be4d90198702c46fa36556f3749a</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>id</attributeName>
+          <attributeLabel>id</attributeLabel>
+          <attributeDefinition>A unique identifier for each sighting submitted.</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>A unique identifier for each sighting submitted.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sighting_date</attributeName>
+          <attributeLabel>sighting_date</attributeLabel>
+          <attributeDefinition>Date when the sighting was submitted.</attributeDefinition>
+          <storageType
+                    typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum
+                    exclusive="false">1-1-1996</minimum>
+                  <maximum
+            exclusive="false">12-31-2020</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>species</attributeName>
+          <attributeLabel>species</attributeLabel>
+          <attributeDefinition>Designation for the type of sighting being reported.</attributeDefinition>
+          <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain
+            enforced="yes">
+                  <codeDefinition>
+                    <code>Milkweed (FIRST sighted)</code>
+                    <definition>This event reporting category is reserved for first observation of milkweed plant emergence in spring. Reports reflect milkweed emergence at a single location during a snapshot in time. Volunteers often provide number of milkweeds sighted. Comments include ecological context of the observation e.g., name of milkweed species. Photos are encouraged but not required.  No standard reporting schedule is required. Spring only (1 January - 31 July) reporting category.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Milkweed Sighted</code>
+                    <definition>This reporting category is reserved for milkweed observations. Reports reflect milkweed observed at a single location during a snapshot in time. Volunteers often provide number of milkweed sighted. Comments include ecological context of the observation e.g., name of milkweed species. Photos are encouraged but not required.  No standard reporting schedule is required. Year-round reporting category.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Monarch (OTHER Observations)</code>
+                    <definition>This reporting category is reserved for all other monarch observations – and tend to be more behavioral in nature. Examples of other observations could include mating, laying eggs, chrysalis sighting, nectaring, basking in the sun, deceased monarch, name of flowering species. Photos are encouraged but not required.  No standard reporting schedule is required. Year-round reporting category.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Monarch Adult (FIRST sighted)</code>
+                    <definition>This reporting category is reserved for first monarch adult butterflies observed in the spring. Reports reflect the number of first monarchs observed at a single location during a snapshot in time. Comments include ecological context of the observation. Photos are encouraged but not required.  No standard reporting schedule is required. (Spring only (1 January - 31 July) reporting category.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Monarch Adult Sighted</code>
+                    <definition>This reporting category is reserved for monarch adults (ie. butterflies, not eggs or larvae) observations. Reports reflect the number of monarchs observed at a single location during a snapshot in time. Comments include ecological context of the observation. Photos are encouraged but not required.  No standard reporting schedule is required. Year-round reporting category.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Monarch Egg (FIRST sighted)</code>
+                    <definition>This event reporting category is reserved for first monarch egg observations seen in the spring. Reports reflect first monarch egg(s) observed at a single location during a snapshot in time. Volunteers often provide number of eggs sighted. Comments include ecological context of the observation e.g., name of milkweed species. Photos are encouraged but not required.  No standard reporting schedule is required. Spring only (1 January - 31 July) reporting category.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Monarch Egg Sighted</code>
+                    <definition>This reporting category is reserved for monarch egg observations. Reports reflect monarch egg(s) observed at a single location during a snapshot in time. Volunteers often provide number of eggs sighted. Comments include ecological context of the observation e.g., name of milkweed species. Photos are encouraged but not required.  No standard reporting schedule is required. Year-round reporting category.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Monarch Fall Roost</code>
+                    <definition>Migrating monarchs cluster together in trees at night, forming roosts. A roost may have a handful of butterflies or more than you can count. This event reporting category reflects the number of clustered monarchs observed within a roost for a single night. In the comment field, volunteers are encouraged to provide information on estimation techniques and additional ecological information about the roost site, e.g., nearby nectar sources, species of tree(s) in roost, and whether the monarchs are shielded from the wind in their location. Photos are encouraged but not required.  No standard reporting schedule is required. No standard estimation technique is required. Fall only (1 August-31 December) reporting category.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Monarch Larva (FIRST sighted)</code>
+                    <definition>This event reporting category is reserved for first monarch larva observations. Reports reflect first monarch larvae observed at a single location during a snapshot in time. Volunteers often provide number of larvae sighted. Comments include ecological context of the observation e.g., name of milkweed species. Photos are encouraged but not required.  No standard reporting schedule is required. Spring only (1 January - 31 July) reporting category.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Monarch Larva Sighted</code>
+                    <definition>This reporting category is reserved for monarch larva observations. Reports reflect monarch larvae observed at a single location during a snapshot in time. Volunteers often provide number of larvae sighted. Comments include ecological context of the observation e.g., name of milkweed species. Photos are encouraged but not required.  No standard reporting schedule is required. Year-round reporting category.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Monarch PEAK Migration</code>
+                    <definition>This event reporting category is reserved for observations of large numbers of monarchs flying in a clear “directional” flight or seeing “hundreds of butterflies” nectaring in a field of flowers fueling up for the long flight during fall migration. Reports reflect observations of monarchs observed at a single location during a snapshot in time. In the comment field, volunteers are encouraged to provide the length of time spent counting monarchs and estimation techniques. Photos are encouraged but not required.  No standard reporting schedule is required. Fall only (1 August-31 December) reporting category.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Monarch, Captive-Reared</code>
+                    <definition>Journey North focuses on observations of monarchs in the wild. This event reporting category is reserved for adult monarchs, monarch eggs and monarch larvae that are reared inside an enclosure. These observations are not considered “wild” observations. Year-round reporting category.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>number</attributeName>
+          <attributeLabel>number</attributeLabel>
+          <attributeDefinition>Number of individuals observed per sighting category.</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>latitude</attributeName>
+          <attributeLabel>latitude</attributeLabel>
+          <attributeDefinition>Latitude in decimal degrees specified by the observer, determined using the "report sighting" user interface, in the submitted sighting.</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>decimalDegree</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>longitude</attributeName>
+          <attributeLabel>longitude</attributeLabel>
+          <attributeDefinition>Longitude in decimal degrees specified by the observer, determined using the "report sighting" user interface, in the submitted sighting.</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>decimalDegree</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>flag_location</attributeName>
+          <attributeLabel>flag_location</attributeLabel>
+          <attributeDefinition>A column designated to flag those locations (longitude and latitude) that their values were obtained based on different methods. </attributeDefinition>
+          <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain
+            enforced="yes">
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>The location (latitude and longitude) was recorded using the zip code of the community scientist when they first registered online with Journey North. </definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>The location (latitude and longitude) was recorded by the community scientists using the Google Maps location picker available on the Journey North web interface at the time of submission of the sighting. </definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>comments</attributeName>
+          <attributeLabel>comments</attributeLabel>
+          <attributeDefinition>Any commentary or detail that the user wishes to include as part of their sighting.</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any commentary or detail that the user wishes to include as part of their sighting.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999999.999</code>
+            <codeExplanation>The user did not include any value as it is not required. </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>school</attributeName>
+          <attributeLabel>school</attributeLabel>
+          <attributeDefinition>The name of the school reporting the data.</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The name of the school reporting the data.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999999.999</code>
+            <codeExplanation>The user did not include any value as it is not required. </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>grade</attributeName>
+          <attributeLabel>grade</attributeLabel>
+          <attributeDefinition>The student or classroom grade where the data is reported by the school.</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The student or classroom grade where the data is reported by the school.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999999.999</code>
+            <codeExplanation>The user did not include any value as it is not required.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>image_url</attributeName>
+          <attributeLabel>image_url</attributeLabel>
+          <attributeDefinition>The journeynorth.org website URL to the image posted with the corresponding sighting</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The journeynorth.org website URL to the image posted with the corresponding sighting</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999999.999</code>
+            <codeExplanation>Not all sightings contain an image URL as a photo submission of the sighting is not required.  </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>customerid</attributeName>
+          <attributeLabel>customerid</attributeLabel>
+          <attributeDefinition>A unique identifier of the user who reported the sighting. </attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>A unique identifier of the user who reported the sighting. </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>number_old</attributeName>
+          <attributeLabel>number_old</attributeLabel>
+          <attributeDefinition>Original number of individuals observed per sighting previous data cleaning.</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999999.999</code>
+            <codeExplanation>The user forgot to include the number of sighted hummingbirds.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>flag_number</attributeName>
+          <attributeLabel>flag_number</attributeLabel>
+          <attributeDefinition>A column designated to flag those sightings that the values of their number column were changed from its original entry. </attributeDefinition>
+          <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain
+            enforced="yes">
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>no change</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>When the value was missing, a 1 was added as a new value.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>When the value was zero, a 1 was added as a new value. </definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>species_old</attributeName>
+          <attributeLabel>species_old</attributeLabel>
+          <attributeDefinition>Original designation for the reporting category prior data cleaning. </attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Original designation for the reporting category prior data cleaning. </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999999.999</code>
+            <codeExplanation>Some sightings did not have any value as the reporting category.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>flag_species</attributeName>
+          <attributeLabel>flag_species</attributeLabel>
+          <attributeDefinition>A column designated to flag those reporting categories that the value of their species column were changed.</attributeDefinition>
+          <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain
+          enforced="yes">
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>No change</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Reclassification based on current reporting categories and or typos. </definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>227433</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit
+          id="decimalDegree"
+        name="decimalDegree">
+          <description>Express latitude and longitude geographic coordinates as decimal fractions of a degree. </description>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <emlEditor
+        app="ezEML" release="2021.08.19"/>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

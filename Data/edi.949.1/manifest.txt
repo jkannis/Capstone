@@ -1,0 +1,5 @@
+Manifest file for edi.949.1-4c9184f37cff01bcdc32dc486ec36961.zip created on Fri Oct 22 10:43:28 MDT 2021
+UWMadisonArb_JNorth_Project_MonarchsAndMilkweed_1996-2020.csv (71611741 bytes)
+edi.949.1.xml (48296 bytes)
+edi.949.1.txt (29083 bytes)
+edi.949.1.report.xml (32033 bytes)

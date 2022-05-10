@@ -1,0 +1,1041 @@
+
+  
+    uid=EDI,o=EDI,dc=edirepository,dc=orgall
+      uid=dbjourneynorth,o=EDI,dc=edirepository,dc=org
+      all
+    
+    
+      public
+      read
+    
+  
+  
+    doi:10.6073/pasta/a4bebd2b5fb5c1fd0757eac254a06357Journey North - Hummingbird observations by volunteer community scientists across Central and North America (1996-2020)
+    
+      Nancy Sheehan
+      University of Wisconsin - Madison Arboretum, Journey North Program
+      Program Coordinator
+      nsheehan@wisc.edu
+      0000-0002-2632-0796
+    
+    
+      Luis Weber-Grullon
+      University of Wisconsin - Madison
+      Data Manager (EDI Fellow)
+      luisweberg@gmail.com
+      0000-0002-6548-8268
+    
+    
+      Luis Weber-Grullon
+      Data Manager (EDI Fellow)
+      			,  85281-2443  
+      luisweberg@gmail.com
+      0000-0002-6548-8268
+      Data Manager (EDI Fellow)
+    
+    
+      Garrett Smith
+      University of Wisconsin - Madison
+      Software Developer
+      garrett.smith@wisc.edu
+      Software Developer
+    
+    
+      Annie Isenbarger
+      University of Wisconsin - Madison Arboretum
+      Data Verifier
+      annie.isenbarger@wisc.edu
+      Data Verifier
+    
+    2021-08-20
+      This data package contains hummingbird migration data (1996 - 2020) across North and Central America collected by 30,703 community scientists for Journey North, a crowdsourced participatory science program of the University of Wisconsin-Madison Arboretum. The Journey North Hummingbird Project is an ongoing study of hummingbird phenology conducted at broad spatial and temporal scales. Since 1996, community scientists have tracked first arrival dates and breeding and feeding behavior as well as the onset of fall migration and presence of hummingbird species throughout the winter months in the United States. Focal species are the Ruby-throated Hummingbird (Archilochus colubris) and Rufous Hummingbird. However, observational data is also available for Broad-tailed Hummingbird (Selasphorus platycercus), Black-chinned Hummingbird (Archilochus alexandri), Calliope Hummingbird (Selasphorus calliope), Costa's Hummingbird (Calypte costae), Anna’s Hummingbird (Calypte anna), Allen’s Hummingbird (Selasphours sasin). Observers also provide estimates of the number of birds sighted. However, observers do not follow standardized methods for counting species observed. Observers do not observe at set times of the day, do not repeat observations regularly, and are not required to provide the length of time during which a specified number of species observed were counted. Therefore, it is recommended that this dataset be analyzed to indicate presence, not abundance. Additional contextual information is provided as text in the comments field of the dataset. The Journey North Hummingbird Project dataset is hosted by the University of Wisconsin-Madison Shared Web Hosting Service.
+    
+    
+      hummingbird
+      participatory science
+      citizen science
+      wildlife migration
+      North America
+      Central America
+      Ruby-throated hummingbird
+      Rufous hummingbird
+      Anna's hummingbird
+      Allen’s hummingbird
+      Broad-tailed hummingbird
+      Black-chinned hummingbird
+      Calliope hummingbird
+      Costa’s hummingbird
+    
+    
+      phenology
+      birds
+      LTER Controlled Vocabulary
+    
+    This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+    
+      
+        North and Central America
+        
+          -158.458
+          -45.04
+          64.779
+          9.276
+        
+      
+      
+        
+          
+            1996-12-11
+          
+          
+            2020-12-31
+          
+        
+      
+      
+        
+          Kingdom
+          Metazoa
+          metazoans
+          33208
+          
+            Phylum
+            Chordata
+            chordates
+            7711
+            
+              Subphylum
+              Craniata
+              89593
+              
+                Superclass
+                Sarcopterygii
+                8287
+                
+                  Class
+                  Aves
+                  birds
+                  8782
+                  
+                    Infraclass
+                    Neognathae
+                    8825
+                    
+                      Order
+                      Apodiformes
+                      swifts and hummingbirds
+                      8892
+                      
+                        Family
+                        Trochilidae
+                        hummingbirds
+                        9242
+                        
+                          Genus
+                          Archilochus
+                          190675
+                          
+                            Species
+                            Archilochus alexandri
+                            black-chinned hummingbird
+                            371906
+                          
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+      
+      
+        All birds were identified as species using their common name. 
+        
+          Kingdom
+          Animalia
+          animals
+          202423
+          
+            Subkingdom
+            Bilateria
+            914154
+            
+              Infrakingdom
+              Deuterostomia
+              914156
+              
+                Phylum
+                Chordata
+                chordates
+                158852
+                
+                  Subphylum
+                  Vertebrata
+                  vertebrates
+                  331030
+                  
+                    Infraphylum
+                    Gnathostomata
+                    914179
+                    
+                      Superclass
+                      Tetrapoda
+                      914181
+                      
+                        Class
+                        Aves
+                        Birds
+                        174371
+                        
+                          Order
+                          Apodiformes
+                          Swifts
+                          177993
+                          
+                            Family
+                            Trochilidae
+                            Hummingbirds
+                            178028
+                            
+                              Subfamily
+                              Trochilinae
+                              693121
+                              
+                                Genus
+                                Archilochus
+                                Ruby-throated Hummingbirds
+                                178031
+                                
+                                  Species
+                                  Archilochus colubris
+                                  Ruby-throated Hummingbird
+                                  178032
+                                
+                              
+                            
+                          
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+      
+      
+        
+          Kingdom
+          Metazoa
+          metazoans
+          33208
+          
+            Phylum
+            Chordata
+            chordates
+            7711
+            
+              Subphylum
+              Craniata
+              89593
+              
+                Superclass
+                Sarcopterygii
+                8287
+                
+                  Class
+                  Aves
+                  birds
+                  8782
+                  
+                    Infraclass
+                    Neognathae
+                    8825
+                    
+                      Order
+                      Apodiformes
+                      swifts and hummingbirds
+                      8892
+                      
+                        Family
+                        Trochilidae
+                        hummingbirds
+                        9242
+                        
+                          Genus
+                          Calypte
+                          9243
+                          
+                            Species
+                            Calypte anna
+                            Anna's hummingbird
+                            9244
+                          
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+      
+      
+        
+          Kingdom
+          Metazoa
+          metazoans
+          33208
+          
+            Phylum
+            Chordata
+            chordates
+            7711
+            
+              Subphylum
+              Craniata
+              89593
+              
+                Superclass
+                Sarcopterygii
+                8287
+                
+                  Class
+                  Aves
+                  birds
+                  8782
+                  
+                    Infraclass
+                    Neognathae
+                    8825
+                    
+                      Order
+                      Apodiformes
+                      swifts and hummingbirds
+                      8892
+                      
+                        Family
+                        Trochilidae
+                        hummingbirds
+                        9242
+                        
+                          Genus
+                          Calypte
+                          9243
+                          
+                            Species
+                            Calypte costae
+                            371909
+                          
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+      
+      
+        
+          Kingdom
+          Metazoa
+          metazoans
+          33208
+          
+            Phylum
+            Chordata
+            chordates
+            7711
+            
+              Subphylum
+              Craniata
+              89593
+              
+                Superclass
+                Sarcopterygii
+                8287
+                
+                  Class
+                  Aves
+                  birds
+                  8782
+                  
+                    Infraclass
+                    Neognathae
+                    8825
+                    
+                      Order
+                      Apodiformes
+                      swifts and hummingbirds
+                      8892
+                      
+                        Family
+                        Trochilidae
+                        hummingbirds
+                        9242
+                        
+                          Genus
+                          Selasphorus
+                          29059
+                          
+                            Species
+                            Selasphorus calliope
+                            calliope hummingbird
+                            472914
+                          
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+      
+      
+        
+          Kingdom
+          Metazoa
+          metazoans
+          33208
+          
+            Phylum
+            Chordata
+            chordates
+            7711
+            
+              Subphylum
+              Craniata
+              89593
+              
+                Superclass
+                Sarcopterygii
+                8287
+                
+                  Class
+                  Aves
+                  birds
+                  8782
+                  
+                    Infraclass
+                    Neognathae
+                    8825
+                    
+                      Order
+                      Apodiformes
+                      swifts and hummingbirds
+                      8892
+                      
+                        Family
+                        Trochilidae
+                        hummingbirds
+                        9242
+                        
+                          Genus
+                          Selasphorus
+                          29059
+                          
+                            Species
+                            Selasphorus platycercus
+                            broad-tailed hummingbird
+                            240704
+                          
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+      
+      
+        
+          Kingdom
+          Animalia
+          animals
+          202423
+          
+            Subkingdom
+            Bilateria
+            914154
+            
+              Infrakingdom
+              Deuterostomia
+              914156
+              
+                Phylum
+                Chordata
+                chordates
+                158852
+                
+                  Subphylum
+                  Vertebrata
+                  vertebrates
+                  331030
+                  
+                    Infraphylum
+                    Gnathostomata
+                    914179
+                    
+                      Superclass
+                      Tetrapoda
+                      914181
+                      
+                        Class
+                        Aves
+                        Birds
+                        174371
+                        
+                          Order
+                          Apodiformes
+                          Swifts
+                          177993
+                          
+                            Family
+                            Trochilidae
+                            Hummingbirds
+                            178028
+                            
+                              Subfamily
+                              Trochilinae
+                              693121
+                              
+                                Genus
+                                Selasphorus
+                                Rufous Hummingbirds
+                                178037
+                                
+                                  Species
+                                  Selasphorus rufus
+                                  Rufous Hummingbird
+                                  178040
+                                
+                              
+                            
+                          
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+      
+      
+        
+          Kingdom
+          Metazoa
+          metazoans
+          33208
+          
+            Phylum
+            Chordata
+            chordates
+            7711
+            
+              Subphylum
+              Craniata
+              89593
+              
+                Superclass
+                Sarcopterygii
+                8287
+                
+                  Class
+                  Aves
+                  birds
+                  8782
+                  
+                    Infraclass
+                    Neognathae
+                    8825
+                    
+                      Order
+                      Apodiformes
+                      swifts and hummingbirds
+                      8892
+                      
+                        Family
+                        Trochilidae
+                        hummingbirds
+                        9242
+                        
+                          Genus
+                          Selasphorus
+                          29059
+                          
+                            Species
+                            Selasphorus sasin
+                            371924
+                          
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    
+      
+        This is an ongoing data set that is being maintained by the University of Wisconsin - Madison Arboretum, Journey North program.
+      
+      asNeeded
+    
+    
+      Nancy Sheehan
+      University of Wisconsin - Madison Arboretum, Journey North Program
+      Program Coordinator
+      nsheehan@wisc.edu
+      0000-0002-2632-0796
+    
+    Environmental Data Initiativeinfo@environmentaldatainitiative.orghttps://environmentaldatainitiative.orgEnvironmental Data Initiative
+      
+        
+          Data Collection:
+          
+          After registering with https://journeynorth.org/reg/, citizen community scientists (hereinafter volunteers or observers) enter their observations (or “sightings”) by visiting https://journeynorth.org/sightings/ and selecting the phenological event reporting categories that most fit their observations. The occurrence of a phenological event can be determined by a single date and time of a life cycle stage. For the Journey North program, the first arrival date of a hummingbird species in the spring is an example of such a phenological event reporting category. (As noted by USA-NPN: The definition of the term “phenological event” has not yet been standardized and varies among scientists. USA-NPN website.)
+          
+          Once a reporting category has been selected, the volunteers enter additional information about their observations (or “sightings”) including:
+          •	location of observations (based on known street address, Google Maps location picker, or known latitude/longitude coordinates) (required field)
+          •	number of individual species observed (optional field)
+          •	date of observations (required field)
+          •	comments describing ecological context (optional field)
+          •	photo voucher of observations (optional field)
+          
+          
+          Once the information has been entered, volunteers click on “Submit Report” to complete the process. Journey North provides online support for volunteers. Protocols and identification tips are described on the website. Journey North also fields inquiries via a helpline.
+        
+        Website for report a sighting: https://journeynorth.org/projects
+      
+      
+        
+          Data verification:
+          
+          •	Expert review by project staff. 
+          •	Digital vouchers - photo submissions. 
+          •	Contacting participants about unusual reports. 
+          •	Participants known and qualified.
+          •	Data triangulation --corroboration from other data sources, e.g., remote sensing data, qualitative data, historical trend data.
+          •	Data quality documentation -- metadata documentation
+        
+      
+      
+        
+          Data processing and cleaning.
+          
+          •	The identification and correction of any inconsistencies in formatting for each column of the dataset, while keeping the meaning of the data intact.
+          •	The creation of a copy of the original version of any column to be modified, as well as the creation of another column to flag 
+          •	Filling gaps for the ‘customerid’ column by using the emails of each observational report as a unique identifier, followed by the exclusion of the emails from the dataset to ensure the privacy of our volunteers.
+          •	Fixing typos on the reporting categories that occurred because some of the older data were entered manually in our system, rather than using our current drop-down menu option. 
+          •	Replacing any empty value with a standard code ‘-999999.999’ given that not all of the information provided by the users are required fields on the online platform. 
+          •	Ensuring that each column data type was in fact consistent with the type of data that it contained. 
+          •	Rounding up longitude and latitude values to only 3 decimals after the dot to ensure the privacy of our volunteers. 
+          •	Excluding any observational report that seems beyond recovery in terms of its reliability due to different reasons such as: a) missing latitude and longitude, b) missing email AND customerid together, c) dates of sightings seem to be extremely old (before Journey North foundation).
+          •	Ensuring that there were not any duplicates of any observational report.
+        
+        MySQL Server, Jupyter Notebook (Python), OpenRefine, Git & Github. 
+      
+    
+    
+      Hummingbird Observations in North and Central America (1996-2020)
+      
+        Nancy Sheehan
+        University of Wisconsin - Madison Arboretum
+        Journey North Program Coordinator
+        nsheehan@wisc.edu
+        0000-0002-2632-0796
+        Journey North Program Coordinator
+      
+      
+        Launched in 1994, the Journey North program had three goals: 1) To understand how species respond, across spatial and temporal scales, to climate change. 2) To understand the migration patterns and distribution of species during breeding and overwintering, across spatial and temporal scales, to inform land management and conservation decisions (such as critical habitat designations). 3) To build public awareness of habitat requirements of migratory species that span their life cycles to spur conservation efforts.
+      
+      
+        Annenberg Foundation
+        Journey North Program
+      
+    
+    
+      UWMadisonArb_JNorth_Project_Hummingbirds_1996-2020
+      Journey North - Observational data for hummingbirds migration across North and Central America (1996-2020)
+      
+        UWMadisonArb_JNorth_Project_Hummingbirds_1996-2020.csv
+        45465908
+        0e525645706bb7bcee1a1b2acd497629
+        
+          
+            1
+            \r\n
+            column
+            
+              ,
+              "
+            
+          
+        
+        
+          
+            https://pasta.lternet.edu/package/data/eml/edi/948/1/9d5c4895df059fa1241405e79eb9533a
+          
+        
+      
+      
+        
+          id
+          id
+          A unique identifier for each sighting submitted.
+          string
+          
+            
+              
+                
+                  A unique identifier for each sighting submitted.
+                
+              
+            
+          
+        
+        
+          sighting_date
+          sighting_date
+          Date when the sighting was submitted.
+          dateTime
+          
+            
+              YYYY-MM-DD
+              
+                
+                  1-1-1996
+                  12-31-2020
+                
+              
+            
+          
+        
+        
+          species
+          species
+          Designation for the type of sighting being reported.
+          string
+          
+            
+              
+                
+                  
+                    Hummingbird (Feeder up)
+                    A spring reporting category (January 1-July 31). Observers report date when they first set out their hummingbird feeders. This category is designed to indicate food available at early onset of spring migration.
+                  
+                  
+                    Hummingbird Sighting
+                    A fall reporting category (August 1-December 31). Observers are requested to enter observations of hummingbirds sighted, excluding adult male hummingbirds. Observers are encouraged to list species names if known in the comment box. This category is designed to capture migrating female and juvenile hummingbird movements during fall migration as well as the presence of overwintering hummingbirds.
+                  
+                  
+                    Hummingbird Sighting (Adult Male)
+                    A fall reporting category (August 1-December 31). Because male hummingbirds are the first to leave their breeding grounds and the first to arrive at fall migration stop-over sites, observers are requested to report sightings of male hummingbirds separately using this reporting category. If known, observers are requested to enter in the species name in the comment box. This reporting category is designed to capture the onset of fall migration and to help determine fall migration pathways.
+                  
+                  
+                    Hummingbird, Nectaring from Flowers
+                    A year-round reporting category. Observers report hummingbird behavior specific to feeding from natural sources of nectar. Observers are encouraged to report species of flowers if known. This reporting category is designed to capture food availability and preference during migration and breeding.
+                  
+                  
+                    Hummingbird, Other Observations
+                    A year-round reporting category. Observers report hummingbird behavior, excluding nectaring from flowers. These behaviors include (but are not limited to): foraging for insects, claiming/defending territory, courtship/mating, nest building, defending nests, preening, flying, perching, winter torpor. Observers are encouraged to describe behaviors in the comment field. This reporting category is designed to capture a more complete picture of hummingbird behavior during breeding season. breeding.
+                  
+                  
+                    Hummingbird, Other Species Sighted
+                    A spring reporting category (January 1-July 31). Journey North specifically tracks spring arrival of Ruby-throated and Rufous Hummingbirds. For all other species, Broad-tailed, Black-chinned, Anna’s, Costa’s, and Calliope Hummingbirds, observers report first arrival dates using this reporting category.
+                  
+                  
+                    Hummingbird, Ruby-throated (FIRST)
+                    A spring reporting category (January 1-July 31). Journey North specifically tracks spring arrival of Ruby-throated Hummingbirds. Observers report first arrival dates using this reporting category.	
+                  
+                  
+                    Hummingbird, Rufous (FIRST)
+                    A spring reporting category (January 1-July 31). Journey North specifically tracks spring arrival of Ruby-throated Hummingbirds. Observers report first arrival dates using this reporting category.
+                  
+                
+              
+            
+          
+        
+        
+          number
+          number
+          Number of individuals observed per sighting category.
+          integer
+          
+            
+              
+                number
+              
+              
+                integer
+              
+            
+          
+        
+        
+          latitude
+          latitude
+          Latitude in decimal degrees specified by the observer, determined using the "report sighting" user interface, in the submitted sighting.
+          float
+          
+            
+              
+                decimalDegree
+              
+              
+                real
+              
+            
+          
+        
+        
+          longitude
+          longitude
+          Longitude in decimal degrees specified by the observer, determined using the "report sighting" user interface, in the submitted sighting.
+          float
+          
+            
+              
+                decimalDegree
+              
+              
+                real
+              
+            
+          
+        
+        
+          flag_location
+          flag_location
+          A column designated to flag those locations (longitude and latitude) that their values were obtained based on different methods. 
+          string
+          
+            
+              
+                
+                  
+                    0
+                    The location (latitude and longitude) was recorded using the zip code of the community scientist when they first registered online with Journey North. 
+                  
+                  
+                    1
+                    The location (latitude and longitude) was recorded by the community scientists using the Google Maps location picker available on the Journey North web interface at the time of submission of the sighting. 
+                  
+                
+              
+            
+          
+        
+        
+          comments
+          comments
+          Any commentary or detail that the user wishes to include as part of their sighting.
+          string
+          
+            
+              
+                
+                  Any commentary or detail that the user wishes to include as part of their sighting.
+                
+              
+            
+          
+          
+            -999999.999
+            The user did not include any value as it is not required. 
+          
+        
+        
+          school
+          school
+          The name of the school reporting the data.
+          string
+          
+            
+              
+                
+                  The name of the school reporting the data.
+                
+              
+            
+          
+          
+            -999999.999
+            The user did not include any value as it is not required. 
+          
+        
+        
+          grade
+          grade
+          The student or classroom grade where the data is reported by the school.
+          string
+          
+            
+              
+                
+                  The student or classroom grade where the data is reported by the school.
+                
+              
+            
+          
+          
+            -999999.999
+            The user did not include any value as it is not required.
+          
+        
+        
+          image_url
+          image_url
+          The journeynorth.org website URL to the image posted with the corresponding sighting
+          string
+          
+            
+              
+                
+                  The journeynorth.org website URL to the image posted with the corresponding sighting
+                
+              
+            
+          
+          
+            -999999.999
+            Not all sightings contain an image URL as a photo submission of the sighting is not required.  
+          
+        
+        
+          customerid
+          customerid
+          A unique identifier of the user who reported the sighting. 
+          string
+          
+            
+              
+                
+                  A unique identifier of the user who reported the sighting. 
+                
+              
+            
+          
+        
+        
+          number_old
+          number_old
+          Original number of individuals observed per sighting previous data cleaning.
+          float
+          
+            
+              
+                number
+              
+              
+                real
+              
+            
+          
+          
+            -999999.999
+            The user forgot to include the number of sighted hummingbirds.
+          
+        
+        
+          flag_number
+          flag_number
+          A column designated to flag those sightings that the values of their number column were changed from its original entry. 
+          string
+          
+            
+              
+                
+                  
+                    0
+                    no change
+                  
+                  
+                    1
+                    When the value was missing, a 1 was added as a new value.
+                  
+                  
+                    2
+                    When the value was zero, a 1 was added as a new value. 
+                  
+                
+              
+            
+          
+        
+        
+          species_old
+          species_old
+          Original designation for the reporting category prior data cleaning. 
+          string
+          
+            
+              
+                
+                  Original designation for the reporting category prior data cleaning. 
+                
+              
+            
+          
+          
+            -999999.999
+            Some sightings did not have any value as the reporting category.
+          
+        
+        
+          flag_species
+          flag_species
+          A column designated to flag those reporting categories that the value of their species column were changed.
+          string
+          
+            
+              
+                
+                  
+                    0
+                    No change
+                  
+                  
+                    1
+                    Reclassification based on current reporting categories and or typos. 
+                  
+                
+              
+            
+          
+        
+      
+      no
+      164841
+    
+  
+  
+    
+      
+        
+          Express latitude and longitude geographic coordinates as decimal fractions of a degree.
+        
+      
+    
+  
+  
+    
+      
+    
+  

@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="edi.948.1" system="https://pasta.edirepository.org"
+  xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd">
+  <access
+    authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document"
+      system="https://pasta.edirepository.org">
+    <allow><principal>uid=EDI,o=EDI,dc=edirepository,dc=org</principal><permission>all</permission></allow><allow>
+      <principal>uid=dbjourneynorth,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier
+        system="https://doi.org">doi:10.6073/pasta/a4bebd2b5fb5c1fd0757eac254a06357</alternateIdentifier><title>Journey North - Hummingbird observations by volunteer community scientists across Central and North America (1996-2020)</title>
+    <creator>
+      <individualName>
+        <givenName>Nancy</givenName>
+        <surName>Sheehan</surName>
+      </individualName>
+      <organizationName>University of Wisconsin - Madison Arboretum, Journey North Program</organizationName>
+      <positionName>Program Coordinator</positionName>
+      <electronicMailAddress>nsheehan@wisc.edu</electronicMailAddress>
+      <userId
+        directory="https://orcid.org">0000-0002-2632-0796</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Luis</givenName>
+        <surName>Weber-Grullon</surName>
+      </individualName>
+      <organizationName>University of Wisconsin - Madison</organizationName>
+      <positionName>Data Manager (EDI Fellow)</positionName>
+      <electronicMailAddress>luisweberg@gmail.com</electronicMailAddress>
+      <userId
+        directory="https://orcid.org">0000-0002-6548-8268</userId>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Luis</givenName>
+        <surName>Weber-Grullon</surName>
+      </individualName>
+      <positionName>Data Manager (EDI Fellow)</positionName>
+      <address>
+        <postalCode>85281-2443</postalCode>
+      </address>
+      <electronicMailAddress>luisweberg@gmail.com</electronicMailAddress>
+      <userId
+        directory="https://orcid.org">0000-0002-6548-8268</userId>
+      <role>Data Manager (EDI Fellow)</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Garrett</givenName>
+        <surName>Smith</surName>
+      </individualName>
+      <organizationName>University of Wisconsin - Madison</organizationName>
+      <positionName>Software Developer</positionName>
+      <electronicMailAddress>garrett.smith@wisc.edu</electronicMailAddress>
+      <role>Software Developer</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Annie</givenName>
+        <surName>Isenbarger</surName>
+      </individualName>
+      <organizationName>University of Wisconsin - Madison Arboretum</organizationName>
+      <positionName>Data Verifier</positionName>
+      <electronicMailAddress>annie.isenbarger@wisc.edu</electronicMailAddress>
+      <role>Data Verifier</role>
+    </associatedParty>
+    <pubDate>2021-08-20</pubDate><abstract>
+      <para>This data package contains hummingbird migration data (1996 - 2020) across North and Central America collected by 30,703 community scientists for Journey North, a crowdsourced participatory science program of the University of Wisconsin-Madison Arboretum. The Journey North Hummingbird Project is an ongoing study of hummingbird phenology conducted at broad spatial and temporal scales. Since 1996, community scientists have tracked first arrival dates and breeding and feeding behavior as well as the onset of fall migration and presence of hummingbird species throughout the winter months in the United States. Focal species are the Ruby-throated Hummingbird (Archilochus colubris) and Rufous Hummingbird. However, observational data is also available for Broad-tailed Hummingbird (Selasphorus platycercus), Black-chinned Hummingbird (Archilochus alexandri), Calliope Hummingbird (Selasphorus calliope), Costa's Hummingbird (Calypte costae), Anna’s Hummingbird (Calypte anna), Allen’s Hummingbird (Selasphours sasin). Observers also provide estimates of the number of birds sighted. However, observers do not follow standardized methods for counting species observed. Observers do not observe at set times of the day, do not repeat observations regularly, and are not required to provide the length of time during which a specified number of species observed were counted. Therefore, it is recommended that this dataset be analyzed to indicate presence, not abundance. Additional contextual information is provided as text in the comments field of the dataset. The Journey North Hummingbird Project dataset is hosted by the University of Wisconsin-Madison Shared Web Hosting Service.</para>
+    </abstract>
+    <keywordSet>
+      <keyword
+        keywordType="taxonomic">hummingbird</keyword>
+      <keyword
+        keywordType="theme">participatory science</keyword>
+      <keyword
+        keywordType="theme">citizen science</keyword>
+      <keyword
+        keywordType="theme">wildlife migration</keyword>
+      <keyword
+        keywordType="place">North America</keyword>
+      <keyword
+        keywordType="theme">Central America</keyword>
+      <keyword
+        keywordType="taxonomic">Ruby-throated hummingbird</keyword>
+      <keyword
+        keywordType="taxonomic">Rufous hummingbird</keyword>
+      <keyword
+        keywordType="taxonomic">Anna's hummingbird</keyword>
+      <keyword
+        keywordType="taxonomic">Allen’s hummingbird</keyword>
+      <keyword
+        keywordType="taxonomic">Broad-tailed hummingbird</keyword>
+      <keyword
+        keywordType="taxonomic">Black-chinned hummingbird</keyword>
+      <keyword
+        keywordType="taxonomic">Calliope hummingbird</keyword>
+      <keyword
+        keywordType="taxonomic">Costa’s hummingbird</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword
+        keywordType="theme">phenology</keyword>
+      <keyword
+            keywordType="theme">birds</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>North and Central America</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-158.458</westBoundingCoordinate>
+          <eastBoundingCoordinate>-45.04</eastBoundingCoordinate>
+          <northBoundingCoordinate>64.779</northBoundingCoordinate>
+          <southBoundingCoordinate>9.276</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1996-12-11</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2020-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Kingdom</taxonRankName>
+          <taxonRankValue>Metazoa</taxonRankValue>
+          <commonName>metazoans</commonName>
+          <taxonId
+              provider="https://www.ncbi.nlm.nih.gov/taxonomy">33208</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>Phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <commonName>chordates</commonName>
+            <taxonId
+                provider="https://www.ncbi.nlm.nih.gov/taxonomy">7711</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>Subphylum</taxonRankName>
+              <taxonRankValue>Craniata</taxonRankValue>
+              <taxonId
+                  provider="https://www.ncbi.nlm.nih.gov/taxonomy">89593</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>Superclass</taxonRankName>
+                <taxonRankValue>Sarcopterygii</taxonRankValue>
+                <taxonId
+                    provider="https://www.ncbi.nlm.nih.gov/taxonomy">8287</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>Class</taxonRankName>
+                  <taxonRankValue>Aves</taxonRankValue>
+                  <commonName>birds</commonName>
+                  <taxonId
+                      provider="https://www.ncbi.nlm.nih.gov/taxonomy">8782</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>Infraclass</taxonRankName>
+                    <taxonRankValue>Neognathae</taxonRankValue>
+                    <taxonId
+                        provider="https://www.ncbi.nlm.nih.gov/taxonomy">8825</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>Order</taxonRankName>
+                      <taxonRankValue>Apodiformes</taxonRankValue>
+                      <commonName>swifts and hummingbirds</commonName>
+                      <taxonId
+                          provider="https://www.ncbi.nlm.nih.gov/taxonomy">8892</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>Family</taxonRankName>
+                        <taxonRankValue>Trochilidae</taxonRankValue>
+                        <commonName>hummingbirds</commonName>
+                        <taxonId
+                            provider="https://www.ncbi.nlm.nih.gov/taxonomy">9242</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>Genus</taxonRankName>
+                          <taxonRankValue>Archilochus</taxonRankValue>
+                          <taxonId
+                              provider="https://www.ncbi.nlm.nih.gov/taxonomy">190675</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>Species</taxonRankName>
+                            <taxonRankValue>Archilochus alexandri</taxonRankValue>
+                            <commonName>black-chinned hummingbird</commonName>
+                            <taxonId
+            provider="https://www.ncbi.nlm.nih.gov/taxonomy">371906</taxonId>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <generalTaxonomicCoverage>All birds were identified as species using their common name. </generalTaxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <commonName>animals</commonName>
+          <taxonId
+              provider="https://www.itis.gov">202423</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>Subkingdom</taxonRankName>
+            <taxonRankValue>Bilateria</taxonRankValue>
+            <taxonId
+                provider="https://www.itis.gov">914154</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>Infrakingdom</taxonRankName>
+              <taxonRankValue>Deuterostomia</taxonRankValue>
+              <taxonId
+                  provider="https://www.itis.gov">914156</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>Phylum</taxonRankName>
+                <taxonRankValue>Chordata</taxonRankValue>
+                <commonName>chordates</commonName>
+                <taxonId
+                    provider="https://www.itis.gov">158852</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>Subphylum</taxonRankName>
+                  <taxonRankValue>Vertebrata</taxonRankValue>
+                  <commonName>vertebrates</commonName>
+                  <taxonId
+                      provider="https://www.itis.gov">331030</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>Infraphylum</taxonRankName>
+                    <taxonRankValue>Gnathostomata</taxonRankValue>
+                    <taxonId
+                        provider="https://www.itis.gov">914179</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>Superclass</taxonRankName>
+                      <taxonRankValue>Tetrapoda</taxonRankValue>
+                      <taxonId
+                          provider="https://www.itis.gov">914181</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>Class</taxonRankName>
+                        <taxonRankValue>Aves</taxonRankValue>
+                        <commonName>Birds</commonName>
+                        <taxonId
+                            provider="https://www.itis.gov">174371</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>Order</taxonRankName>
+                          <taxonRankValue>Apodiformes</taxonRankValue>
+                          <commonName>Swifts</commonName>
+                          <taxonId
+                              provider="https://www.itis.gov">177993</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>Family</taxonRankName>
+                            <taxonRankValue>Trochilidae</taxonRankValue>
+                            <commonName>Hummingbirds</commonName>
+                            <taxonId
+                                provider="https://www.itis.gov">178028</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>Subfamily</taxonRankName>
+                              <taxonRankValue>Trochilinae</taxonRankValue>
+                              <taxonId
+                                  provider="https://www.itis.gov">693121</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>Genus</taxonRankName>
+                                <taxonRankValue>Archilochus</taxonRankValue>
+                                <commonName>Ruby-throated Hummingbirds</commonName>
+                                <taxonId
+                                    provider="https://www.itis.gov">178031</taxonId>
+                                <taxonomicClassification>
+                                  <taxonRankName>Species</taxonRankName>
+                                  <taxonRankValue>Archilochus colubris</taxonRankValue>
+                                  <commonName>Ruby-throated Hummingbird</commonName>
+                                  <taxonId
+            provider="https://www.itis.gov">178032</taxonId>
+                                </taxonomicClassification>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Kingdom</taxonRankName>
+          <taxonRankValue>Metazoa</taxonRankValue>
+          <commonName>metazoans</commonName>
+          <taxonId
+              provider="https://www.ncbi.nlm.nih.gov/taxonomy">33208</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>Phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <commonName>chordates</commonName>
+            <taxonId
+                provider="https://www.ncbi.nlm.nih.gov/taxonomy">7711</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>Subphylum</taxonRankName>
+              <taxonRankValue>Craniata</taxonRankValue>
+              <taxonId
+                  provider="https://www.ncbi.nlm.nih.gov/taxonomy">89593</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>Superclass</taxonRankName>
+                <taxonRankValue>Sarcopterygii</taxonRankValue>
+                <taxonId
+                    provider="https://www.ncbi.nlm.nih.gov/taxonomy">8287</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>Class</taxonRankName>
+                  <taxonRankValue>Aves</taxonRankValue>
+                  <commonName>birds</commonName>
+                  <taxonId
+                      provider="https://www.ncbi.nlm.nih.gov/taxonomy">8782</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>Infraclass</taxonRankName>
+                    <taxonRankValue>Neognathae</taxonRankValue>
+                    <taxonId
+                        provider="https://www.ncbi.nlm.nih.gov/taxonomy">8825</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>Order</taxonRankName>
+                      <taxonRankValue>Apodiformes</taxonRankValue>
+                      <commonName>swifts and hummingbirds</commonName>
+                      <taxonId
+                          provider="https://www.ncbi.nlm.nih.gov/taxonomy">8892</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>Family</taxonRankName>
+                        <taxonRankValue>Trochilidae</taxonRankValue>
+                        <commonName>hummingbirds</commonName>
+                        <taxonId
+                            provider="https://www.ncbi.nlm.nih.gov/taxonomy">9242</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>Genus</taxonRankName>
+                          <taxonRankValue>Calypte</taxonRankValue>
+                          <taxonId
+                              provider="https://www.ncbi.nlm.nih.gov/taxonomy">9243</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>Species</taxonRankName>
+                            <taxonRankValue>Calypte anna</taxonRankValue>
+                            <commonName>Anna's hummingbird</commonName>
+                            <taxonId
+            provider="https://www.ncbi.nlm.nih.gov/taxonomy">9244</taxonId>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Kingdom</taxonRankName>
+          <taxonRankValue>Metazoa</taxonRankValue>
+          <commonName>metazoans</commonName>
+          <taxonId
+              provider="https://www.ncbi.nlm.nih.gov/taxonomy">33208</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>Phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <commonName>chordates</commonName>
+            <taxonId
+                provider="https://www.ncbi.nlm.nih.gov/taxonomy">7711</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>Subphylum</taxonRankName>
+              <taxonRankValue>Craniata</taxonRankValue>
+              <taxonId
+                  provider="https://www.ncbi.nlm.nih.gov/taxonomy">89593</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>Superclass</taxonRankName>
+                <taxonRankValue>Sarcopterygii</taxonRankValue>
+                <taxonId
+                    provider="https://www.ncbi.nlm.nih.gov/taxonomy">8287</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>Class</taxonRankName>
+                  <taxonRankValue>Aves</taxonRankValue>
+                  <commonName>birds</commonName>
+                  <taxonId
+                      provider="https://www.ncbi.nlm.nih.gov/taxonomy">8782</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>Infraclass</taxonRankName>
+                    <taxonRankValue>Neognathae</taxonRankValue>
+                    <taxonId
+                        provider="https://www.ncbi.nlm.nih.gov/taxonomy">8825</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>Order</taxonRankName>
+                      <taxonRankValue>Apodiformes</taxonRankValue>
+                      <commonName>swifts and hummingbirds</commonName>
+                      <taxonId
+                          provider="https://www.ncbi.nlm.nih.gov/taxonomy">8892</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>Family</taxonRankName>
+                        <taxonRankValue>Trochilidae</taxonRankValue>
+                        <commonName>hummingbirds</commonName>
+                        <taxonId
+                            provider="https://www.ncbi.nlm.nih.gov/taxonomy">9242</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>Genus</taxonRankName>
+                          <taxonRankValue>Calypte</taxonRankValue>
+                          <taxonId
+                              provider="https://www.ncbi.nlm.nih.gov/taxonomy">9243</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>Species</taxonRankName>
+                            <taxonRankValue>Calypte costae</taxonRankValue>
+                            <taxonId
+            provider="https://www.ncbi.nlm.nih.gov/taxonomy">371909</taxonId>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Kingdom</taxonRankName>
+          <taxonRankValue>Metazoa</taxonRankValue>
+          <commonName>metazoans</commonName>
+          <taxonId
+              provider="https://www.ncbi.nlm.nih.gov/taxonomy">33208</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>Phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <commonName>chordates</commonName>
+            <taxonId
+                provider="https://www.ncbi.nlm.nih.gov/taxonomy">7711</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>Subphylum</taxonRankName>
+              <taxonRankValue>Craniata</taxonRankValue>
+              <taxonId
+                  provider="https://www.ncbi.nlm.nih.gov/taxonomy">89593</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>Superclass</taxonRankName>
+                <taxonRankValue>Sarcopterygii</taxonRankValue>
+                <taxonId
+                    provider="https://www.ncbi.nlm.nih.gov/taxonomy">8287</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>Class</taxonRankName>
+                  <taxonRankValue>Aves</taxonRankValue>
+                  <commonName>birds</commonName>
+                  <taxonId
+                      provider="https://www.ncbi.nlm.nih.gov/taxonomy">8782</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>Infraclass</taxonRankName>
+                    <taxonRankValue>Neognathae</taxonRankValue>
+                    <taxonId
+                        provider="https://www.ncbi.nlm.nih.gov/taxonomy">8825</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>Order</taxonRankName>
+                      <taxonRankValue>Apodiformes</taxonRankValue>
+                      <commonName>swifts and hummingbirds</commonName>
+                      <taxonId
+                          provider="https://www.ncbi.nlm.nih.gov/taxonomy">8892</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>Family</taxonRankName>
+                        <taxonRankValue>Trochilidae</taxonRankValue>
+                        <commonName>hummingbirds</commonName>
+                        <taxonId
+                            provider="https://www.ncbi.nlm.nih.gov/taxonomy">9242</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>Genus</taxonRankName>
+                          <taxonRankValue>Selasphorus</taxonRankValue>
+                          <taxonId
+                              provider="https://www.ncbi.nlm.nih.gov/taxonomy">29059</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>Species</taxonRankName>
+                            <taxonRankValue>Selasphorus calliope</taxonRankValue>
+                            <commonName>calliope hummingbird</commonName>
+                            <taxonId
+            provider="https://www.ncbi.nlm.nih.gov/taxonomy">472914</taxonId>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Kingdom</taxonRankName>
+          <taxonRankValue>Metazoa</taxonRankValue>
+          <commonName>metazoans</commonName>
+          <taxonId
+              provider="https://www.ncbi.nlm.nih.gov/taxonomy">33208</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>Phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <commonName>chordates</commonName>
+            <taxonId
+                provider="https://www.ncbi.nlm.nih.gov/taxonomy">7711</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>Subphylum</taxonRankName>
+              <taxonRankValue>Craniata</taxonRankValue>
+              <taxonId
+                  provider="https://www.ncbi.nlm.nih.gov/taxonomy">89593</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>Superclass</taxonRankName>
+                <taxonRankValue>Sarcopterygii</taxonRankValue>
+                <taxonId
+                    provider="https://www.ncbi.nlm.nih.gov/taxonomy">8287</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>Class</taxonRankName>
+                  <taxonRankValue>Aves</taxonRankValue>
+                  <commonName>birds</commonName>
+                  <taxonId
+                      provider="https://www.ncbi.nlm.nih.gov/taxonomy">8782</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>Infraclass</taxonRankName>
+                    <taxonRankValue>Neognathae</taxonRankValue>
+                    <taxonId
+                        provider="https://www.ncbi.nlm.nih.gov/taxonomy">8825</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>Order</taxonRankName>
+                      <taxonRankValue>Apodiformes</taxonRankValue>
+                      <commonName>swifts and hummingbirds</commonName>
+                      <taxonId
+                          provider="https://www.ncbi.nlm.nih.gov/taxonomy">8892</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>Family</taxonRankName>
+                        <taxonRankValue>Trochilidae</taxonRankValue>
+                        <commonName>hummingbirds</commonName>
+                        <taxonId
+                            provider="https://www.ncbi.nlm.nih.gov/taxonomy">9242</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>Genus</taxonRankName>
+                          <taxonRankValue>Selasphorus</taxonRankValue>
+                          <taxonId
+                              provider="https://www.ncbi.nlm.nih.gov/taxonomy">29059</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>Species</taxonRankName>
+                            <taxonRankValue>Selasphorus platycercus</taxonRankValue>
+                            <commonName>broad-tailed hummingbird</commonName>
+                            <taxonId
+            provider="https://www.ncbi.nlm.nih.gov/taxonomy">240704</taxonId>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <commonName>animals</commonName>
+          <taxonId
+              provider="https://www.itis.gov">202423</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>Subkingdom</taxonRankName>
+            <taxonRankValue>Bilateria</taxonRankValue>
+            <taxonId
+                provider="https://www.itis.gov">914154</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>Infrakingdom</taxonRankName>
+              <taxonRankValue>Deuterostomia</taxonRankValue>
+              <taxonId
+                  provider="https://www.itis.gov">914156</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>Phylum</taxonRankName>
+                <taxonRankValue>Chordata</taxonRankValue>
+                <commonName>chordates</commonName>
+                <taxonId
+                    provider="https://www.itis.gov">158852</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>Subphylum</taxonRankName>
+                  <taxonRankValue>Vertebrata</taxonRankValue>
+                  <commonName>vertebrates</commonName>
+                  <taxonId
+                      provider="https://www.itis.gov">331030</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>Infraphylum</taxonRankName>
+                    <taxonRankValue>Gnathostomata</taxonRankValue>
+                    <taxonId
+                        provider="https://www.itis.gov">914179</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>Superclass</taxonRankName>
+                      <taxonRankValue>Tetrapoda</taxonRankValue>
+                      <taxonId
+                          provider="https://www.itis.gov">914181</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>Class</taxonRankName>
+                        <taxonRankValue>Aves</taxonRankValue>
+                        <commonName>Birds</commonName>
+                        <taxonId
+                            provider="https://www.itis.gov">174371</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>Order</taxonRankName>
+                          <taxonRankValue>Apodiformes</taxonRankValue>
+                          <commonName>Swifts</commonName>
+                          <taxonId
+                              provider="https://www.itis.gov">177993</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>Family</taxonRankName>
+                            <taxonRankValue>Trochilidae</taxonRankValue>
+                            <commonName>Hummingbirds</commonName>
+                            <taxonId
+                                provider="https://www.itis.gov">178028</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>Subfamily</taxonRankName>
+                              <taxonRankValue>Trochilinae</taxonRankValue>
+                              <taxonId
+                                  provider="https://www.itis.gov">693121</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>Genus</taxonRankName>
+                                <taxonRankValue>Selasphorus</taxonRankValue>
+                                <commonName>Rufous Hummingbirds</commonName>
+                                <taxonId
+                                    provider="https://www.itis.gov">178037</taxonId>
+                                <taxonomicClassification>
+                                  <taxonRankName>Species</taxonRankName>
+                                  <taxonRankValue>Selasphorus rufus</taxonRankValue>
+                                  <commonName>Rufous Hummingbird</commonName>
+                                  <taxonId
+            provider="https://www.itis.gov">178040</taxonId>
+                                </taxonomicClassification>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Kingdom</taxonRankName>
+          <taxonRankValue>Metazoa</taxonRankValue>
+          <commonName>metazoans</commonName>
+          <taxonId
+              provider="https://www.ncbi.nlm.nih.gov/taxonomy">33208</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>Phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <commonName>chordates</commonName>
+            <taxonId
+                provider="https://www.ncbi.nlm.nih.gov/taxonomy">7711</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>Subphylum</taxonRankName>
+              <taxonRankValue>Craniata</taxonRankValue>
+              <taxonId
+                  provider="https://www.ncbi.nlm.nih.gov/taxonomy">89593</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>Superclass</taxonRankName>
+                <taxonRankValue>Sarcopterygii</taxonRankValue>
+                <taxonId
+                    provider="https://www.ncbi.nlm.nih.gov/taxonomy">8287</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>Class</taxonRankName>
+                  <taxonRankValue>Aves</taxonRankValue>
+                  <commonName>birds</commonName>
+                  <taxonId
+                      provider="https://www.ncbi.nlm.nih.gov/taxonomy">8782</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>Infraclass</taxonRankName>
+                    <taxonRankValue>Neognathae</taxonRankValue>
+                    <taxonId
+                        provider="https://www.ncbi.nlm.nih.gov/taxonomy">8825</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>Order</taxonRankName>
+                      <taxonRankValue>Apodiformes</taxonRankValue>
+                      <commonName>swifts and hummingbirds</commonName>
+                      <taxonId
+                          provider="https://www.ncbi.nlm.nih.gov/taxonomy">8892</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>Family</taxonRankName>
+                        <taxonRankValue>Trochilidae</taxonRankValue>
+                        <commonName>hummingbirds</commonName>
+                        <taxonId
+                            provider="https://www.ncbi.nlm.nih.gov/taxonomy">9242</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>Genus</taxonRankName>
+                          <taxonRankValue>Selasphorus</taxonRankValue>
+                          <taxonId
+                              provider="https://www.ncbi.nlm.nih.gov/taxonomy">29059</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>Species</taxonRankName>
+                            <taxonRankValue>Selasphorus sasin</taxonRankValue>
+                            <taxonId
+        provider="https://www.ncbi.nlm.nih.gov/taxonomy">371924</taxonId>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>This is an ongoing data set that is being maintained by the University of Wisconsin - Madison Arboretum, Journey North program.</para>
+      </description>
+      <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Nancy</givenName>
+        <surName>Sheehan</surName>
+      </individualName>
+      <organizationName>University of Wisconsin - Madison Arboretum, Journey North Program</organizationName>
+      <positionName>Program Coordinator</positionName>
+      <electronicMailAddress>nsheehan@wisc.edu</electronicMailAddress>
+      <userId
+          directory="https://orcid.org">0000-0002-2632-0796</userId>
+    </contact>
+    <publisher><organizationName>Environmental Data Initiative</organizationName><electronicMailAddress>info@environmentaldatainitiative.org</electronicMailAddress><onlineUrl>https://environmentaldatainitiative.org</onlineUrl></publisher><pubPlace>Environmental Data Initiative</pubPlace><methods>
+      <methodStep>
+        <description>
+          <para>Data Collection:</para>
+          <para/>
+          <para>After registering with https://journeynorth.org/reg/, citizen community scientists (hereinafter volunteers or observers) enter their observations (or “sightings”) by visiting https://journeynorth.org/sightings/ and selecting the phenological event reporting categories that most fit their observations. The occurrence of a phenological event can be determined by a single date and time of a life cycle stage. For the Journey North program, the first arrival date of a hummingbird species in the spring is an example of such a phenological event reporting category. (As noted by USA-NPN: The definition of the term “phenological event” has not yet been standardized and varies among scientists. USA-NPN website.)</para>
+          <para/>
+          <para>Once a reporting category has been selected, the volunteers enter additional information about their observations (or “sightings”) including:</para>
+          <para>•	location of observations (based on known street address, Google Maps location picker, or known latitude/longitude coordinates) (required field)</para>
+          <para>•	number of individual species observed (optional field)</para>
+          <para>•	date of observations (required field)</para>
+          <para>•	comments describing ecological context (optional field)</para>
+          <para>•	photo voucher of observations (optional field)</para>
+          <para/>
+          <para/>
+          <para>Once the information has been entered, volunteers click on “Submit Report” to complete the process. Journey North provides online support for volunteers. Protocols and identification tips are described on the website. Journey North also fields inquiries via a helpline.</para>
+        </description>
+        <instrumentation>Website for report a sighting: https://journeynorth.org/projects</instrumentation>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Data verification:</para>
+          <para/>
+          <para>•	Expert review by project staff. </para>
+          <para>•	Digital vouchers - photo submissions. </para>
+          <para>•	Contacting participants about unusual reports. </para>
+          <para>•	Participants known and qualified.</para>
+          <para>•	Data triangulation --corroboration from other data sources, e.g., remote sensing data, qualitative data, historical trend data.</para>
+          <para>•	Data quality documentation -- metadata documentation</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Data processing and cleaning.</para>
+          <para/>
+          <para>•	The identification and correction of any inconsistencies in formatting for each column of the dataset, while keeping the meaning of the data intact.</para>
+          <para>•	The creation of a copy of the original version of any column to be modified, as well as the creation of another column to flag </para>
+          <para>•	Filling gaps for the ‘customerid’ column by using the emails of each observational report as a unique identifier, followed by the exclusion of the emails from the dataset to ensure the privacy of our volunteers.</para>
+          <para>•	Fixing typos on the reporting categories that occurred because some of the older data were entered manually in our system, rather than using our current drop-down menu option. </para>
+          <para>•	Replacing any empty value with a standard code ‘-999999.999’ given that not all of the information provided by the users are required fields on the online platform. </para>
+          <para>•	Ensuring that each column data type was in fact consistent with the type of data that it contained. </para>
+          <para>•	Rounding up longitude and latitude values to only 3 decimals after the dot to ensure the privacy of our volunteers. </para>
+          <para>•	Excluding any observational report that seems beyond recovery in terms of its reliability due to different reasons such as: a) missing latitude and longitude, b) missing email AND customerid together, c) dates of sightings seem to be extremely old (before Journey North foundation).</para>
+          <para>•	Ensuring that there were not any duplicates of any observational report.</para>
+        </description>
+        <instrumentation>MySQL Server, Jupyter Notebook (Python), OpenRefine, Git &amp; Github. </instrumentation>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Hummingbird Observations in North and Central America (1996-2020)</title>
+      <personnel>
+        <individualName>
+          <givenName>Nancy</givenName>
+          <surName>Sheehan</surName>
+        </individualName>
+        <organizationName>University of Wisconsin - Madison Arboretum</organizationName>
+        <positionName>Journey North Program Coordinator</positionName>
+        <electronicMailAddress>nsheehan@wisc.edu</electronicMailAddress>
+        <userId
+          directory="https://orcid.org">0000-0002-2632-0796</userId>
+        <role>Journey North Program Coordinator</role>
+      </personnel>
+      <abstract>
+        <para>Launched in 1994, the Journey North program had three goals: 1) To understand how species respond, across spatial and temporal scales, to climate change. 2) To understand the migration patterns and distribution of species during breeding and overwintering, across spatial and temporal scales, to inform land management and conservation decisions (such as critical habitat designations). 3) To build public awareness of habitat requirements of migratory species that span their life cycles to spur conservation efforts.</para>
+      </abstract>
+      <award>
+        <funderName>Annenberg Foundation</funderName>
+        <title>Journey North Program</title>
+      </award>
+    </project>
+    <dataTable>
+      <entityName>UWMadisonArb_JNorth_Project_Hummingbirds_1996-2020</entityName>
+      <entityDescription>Journey North - Observational data for hummingbirds migration across North and Central America (1996-2020)</entityDescription>
+      <physical>
+        <objectName>UWMadisonArb_JNorth_Project_Hummingbirds_1996-2020.csv</objectName>
+        <size
+          unit="byte">45465908</size>
+        <authentication
+            method="MD5">0e525645706bb7bcee1a1b2acd497629</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/edi/948/1/9d5c4895df059fa1241405e79eb9533a</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>id</attributeName>
+          <attributeLabel>id</attributeLabel>
+          <attributeDefinition>A unique identifier for each sighting submitted.</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>A unique identifier for each sighting submitted.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sighting_date</attributeName>
+          <attributeLabel>sighting_date</attributeLabel>
+          <attributeDefinition>Date when the sighting was submitted.</attributeDefinition>
+          <storageType
+                    typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum
+                    exclusive="false">1-1-1996</minimum>
+                  <maximum
+            exclusive="false">12-31-2020</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>species</attributeName>
+          <attributeLabel>species</attributeLabel>
+          <attributeDefinition>Designation for the type of sighting being reported.</attributeDefinition>
+          <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain
+            enforced="yes">
+                  <codeDefinition>
+                    <code>Hummingbird (Feeder up)</code>
+                    <definition>A spring reporting category (January 1-July 31). Observers report date when they first set out their hummingbird feeders. This category is designed to indicate food available at early onset of spring migration.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Hummingbird Sighting</code>
+                    <definition>A fall reporting category (August 1-December 31). Observers are requested to enter observations of hummingbirds sighted, excluding adult male hummingbirds. Observers are encouraged to list species names if known in the comment box. This category is designed to capture migrating female and juvenile hummingbird movements during fall migration as well as the presence of overwintering hummingbirds.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Hummingbird Sighting (Adult Male)</code>
+                    <definition>A fall reporting category (August 1-December 31). Because male hummingbirds are the first to leave their breeding grounds and the first to arrive at fall migration stop-over sites, observers are requested to report sightings of male hummingbirds separately using this reporting category. If known, observers are requested to enter in the species name in the comment box. This reporting category is designed to capture the onset of fall migration and to help determine fall migration pathways.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Hummingbird, Nectaring from Flowers</code>
+                    <definition>A year-round reporting category. Observers report hummingbird behavior specific to feeding from natural sources of nectar. Observers are encouraged to report species of flowers if known. This reporting category is designed to capture food availability and preference during migration and breeding.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Hummingbird, Other Observations</code>
+                    <definition>A year-round reporting category. Observers report hummingbird behavior, excluding nectaring from flowers. These behaviors include (but are not limited to): foraging for insects, claiming/defending territory, courtship/mating, nest building, defending nests, preening, flying, perching, winter torpor. Observers are encouraged to describe behaviors in the comment field. This reporting category is designed to capture a more complete picture of hummingbird behavior during breeding season. breeding.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Hummingbird, Other Species Sighted</code>
+                    <definition>A spring reporting category (January 1-July 31). Journey North specifically tracks spring arrival of Ruby-throated and Rufous Hummingbirds. For all other species, Broad-tailed, Black-chinned, Anna’s, Costa’s, and Calliope Hummingbirds, observers report first arrival dates using this reporting category.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Hummingbird, Ruby-throated (FIRST)</code>
+                    <definition>A spring reporting category (January 1-July 31). Journey North specifically tracks spring arrival of Ruby-throated Hummingbirds. Observers report first arrival dates using this reporting category.	</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Hummingbird, Rufous (FIRST)</code>
+                    <definition>A spring reporting category (January 1-July 31). Journey North specifically tracks spring arrival of Ruby-throated Hummingbirds. Observers report first arrival dates using this reporting category.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>number</attributeName>
+          <attributeLabel>number</attributeLabel>
+          <attributeDefinition>Number of individuals observed per sighting category.</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>latitude</attributeName>
+          <attributeLabel>latitude</attributeLabel>
+          <attributeDefinition>Latitude in decimal degrees specified by the observer, determined using the "report sighting" user interface, in the submitted sighting.</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>decimalDegree</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>longitude</attributeName>
+          <attributeLabel>longitude</attributeLabel>
+          <attributeDefinition>Longitude in decimal degrees specified by the observer, determined using the "report sighting" user interface, in the submitted sighting.</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>decimalDegree</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>flag_location</attributeName>
+          <attributeLabel>flag_location</attributeLabel>
+          <attributeDefinition>A column designated to flag those locations (longitude and latitude) that their values were obtained based on different methods. </attributeDefinition>
+          <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain
+            enforced="yes">
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>The location (latitude and longitude) was recorded using the zip code of the community scientist when they first registered online with Journey North. </definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>The location (latitude and longitude) was recorded by the community scientists using the Google Maps location picker available on the Journey North web interface at the time of submission of the sighting. </definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>comments</attributeName>
+          <attributeLabel>comments</attributeLabel>
+          <attributeDefinition>Any commentary or detail that the user wishes to include as part of their sighting.</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any commentary or detail that the user wishes to include as part of their sighting.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999999.999</code>
+            <codeExplanation>The user did not include any value as it is not required. </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>school</attributeName>
+          <attributeLabel>school</attributeLabel>
+          <attributeDefinition>The name of the school reporting the data.</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The name of the school reporting the data.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999999.999</code>
+            <codeExplanation>The user did not include any value as it is not required. </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>grade</attributeName>
+          <attributeLabel>grade</attributeLabel>
+          <attributeDefinition>The student or classroom grade where the data is reported by the school.</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The student or classroom grade where the data is reported by the school.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999999.999</code>
+            <codeExplanation>The user did not include any value as it is not required.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>image_url</attributeName>
+          <attributeLabel>image_url</attributeLabel>
+          <attributeDefinition>The journeynorth.org website URL to the image posted with the corresponding sighting</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The journeynorth.org website URL to the image posted with the corresponding sighting</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999999.999</code>
+            <codeExplanation>Not all sightings contain an image URL as a photo submission of the sighting is not required.  </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>customerid</attributeName>
+          <attributeLabel>customerid</attributeLabel>
+          <attributeDefinition>A unique identifier of the user who reported the sighting. </attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>A unique identifier of the user who reported the sighting. </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>number_old</attributeName>
+          <attributeLabel>number_old</attributeLabel>
+          <attributeDefinition>Original number of individuals observed per sighting previous data cleaning.</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999999.999</code>
+            <codeExplanation>The user forgot to include the number of sighted hummingbirds.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>flag_number</attributeName>
+          <attributeLabel>flag_number</attributeLabel>
+          <attributeDefinition>A column designated to flag those sightings that the values of their number column were changed from its original entry. </attributeDefinition>
+          <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain
+            enforced="yes">
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>no change</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>When the value was missing, a 1 was added as a new value.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>When the value was zero, a 1 was added as a new value. </definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>species_old</attributeName>
+          <attributeLabel>species_old</attributeLabel>
+          <attributeDefinition>Original designation for the reporting category prior data cleaning. </attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Original designation for the reporting category prior data cleaning. </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999999.999</code>
+            <codeExplanation>Some sightings did not have any value as the reporting category.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>flag_species</attributeName>
+          <attributeLabel>flag_species</attributeLabel>
+          <attributeDefinition>A column designated to flag those reporting categories that the value of their species column were changed.</attributeDefinition>
+          <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain
+          enforced="yes">
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>No change</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Reclassification based on current reporting categories and or typos. </definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>164841</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit
+          id="decimalDegree"
+        name="decimalDegree">
+          <description>Express latitude and longitude geographic coordinates as decimal fractions of a degree.</description>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <emlEditor
+        app="ezEML" release="2021.08.19"/>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>
