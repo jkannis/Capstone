@@ -84,4 +84,10 @@ Our analysis plan will be undergoing following steps :
 
 ## Database - Julie
 
-This project will use a PostgreSQL database to store the data from the datasets chosen for the project. The preliminary database has been designed, but will need to be updated once the data cleaning is complete.
+The data generated from the machine learning model is stored in a Python DataFrame. Once the modeling is complete, SQLAlchemy is used to connect to our PostgreSQL coffee_data database to insert the modeled data into coffeeQualities table. To allow for machine learning some of the data was normalized and converted to numbers. To make this data more meaningful in visualizations and additional table was created in the database as a reference for the species code numbers. This Species table is joined with the coffee_data table to provide a descriptive species name rather than a numeric code. As the data modeling is finalized more tables and relationships may be added to the database.
+
+[SQL File](https://github.com/jkannis/Capstone/blob/main/QuickDBD-coffeeQualities.sql)
+
+[Python File](https://github.com/jkannis/Capstone/blob/main/toDatabase.ipynb)
+
+![Database ERD](https://github.com/jkannis/Capstone/blob/main/Resources/Hierarchical4_ERD.png)
