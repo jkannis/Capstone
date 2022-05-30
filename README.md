@@ -92,6 +92,40 @@ Our analysis plan will be undergoing following steps :
 - Select and validate a suitable predictive Machine Learning model
 - The code in this project will be written in Python. 
 
+## Exploratory Data Analysis (EDA)
+In this section, an initial exploratory analysis of the dataset was done. The dataset was evaluated for any data quality issues that need to be resolved. 
+These data contain reviews of 1312 arabica and 28 robusta coffee beans from the Coffee Quality Institute's trained reviewers.
+
+### Data Types:
+The variables in the dataset are mix of numeric and non-numeric variables.
+The numeric values contain dates as well as scalar values
+The non-numeric variables contain categorical data, free text and hexadecimal-encoded data.
+
+### Missing Values:
+- There are a lot of missing values in this dataset.Columns 'Unnamed: 0','NA.3','NA.2','view_certificate_1','view_certificate_2','Cupping Protocol and Descriptors','View Green Analysis Details','Request a Sample','Unnamed: 51','Notes','Lot Number','Certification Address','Certification Contact','Owner.1','Bag Weight','Mill','ICO Number','NA','Quakers','NA.1','Farm Name','Mill' were removed with 32 columns.
+- In order to analyze the dataset better,dataset was splitted in measures, beans and origin.
+  measures = ['Aroma', 'Flavor','Aftertaste', 'Acidity', 'Body', 'Balance', 'Uniformity', 'Clean Cup', 'Sweetness', 
+             'Cupper Points','Total Cup Points']
+
+  beans = ['Species', 'Harvest Year', 'Grading Date','Variety', 'Processing Method', 'Moisture', 'Category One Defects' 
+        ,'Color', 'Category Two Defects','Expiration']
+
+  origin = ['Country of Origin','Region','Altitude']
+
+- Checked the distribution of each coffee characteristics with histogram/histplot.
+-  ![image](https://user-images.githubusercontent.com/95595378/170875895-7ff03c8b-fb19-42d6-97b9-f3fa28240ba4.png)
+
+- Checked the correlation among coffee characteristics and Cupper point through Scatterplots.
+![image](https://user-images.githubusercontent.com/95595378/170876077-27aa2653-f1f4-4a94-9990-3cedd607c398.png).
+- The variable "Total Cup Points" was not considered since it is the result of adding all measure values.
+## EDA Summary
+During our exploration of the Coffee Quality dataset, several issues were encountered with the data:
+- Many variables with missing values.
+- Columns with zero variance or strongly correlated to others.
+- Columns with inconsistent format that will either have to be preprocessed, or dropped.
+-The coffee quality can be measured with by professional according to serval factors such as:Acidity,Aroma,Flavor,Balance,Sweetness among  others.They also grade each one of these factor to get final score.which indicates the quality of coffee.
+There are some factors that influence the taste of coffee,for example,species,roasting and grinding.Another one is altitude,which is related to two important variables, weather and temperature. 
+
 ## Dashboard - Vileam
 ### Overview
   This part of analytic will be focusing on creating a webpage that overview the data and the results. There will be image, decription that descript the data set and the visualization part of the project.
