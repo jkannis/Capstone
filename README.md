@@ -88,7 +88,7 @@ Our analysis plan will be undergoing following steps :
 - Perform Exploratory Data Analysis to gain insights about the raw data, identify potential data problems, features and target variables, as well as metrics.
 - Preprocess the data to make it suitable for machine learning. This will be done in two steps :
 - Cleaning the data to remove the identified issues
--Feature Engineering to allow and prepare for use of machine learning algorithms
+- Feature Engineering to allow and prepare for use of machine learning algorithms
 - Select and validate a suitable predictive Machine Learning model
 - The code in this project will be written in Python. 
 
@@ -127,9 +127,17 @@ During our exploration of the Coffee Quality dataset, several issues were encoun
 There are some factors that influence the taste of coffee,for example,species,roasting and grinding.Another one is altitude,which is related to two important variables, weather and temperature. 
 
 ## Dashboard - Vileam
-### Overview
-  This part of analytic will be focusing on creating a webpage that overview the data and the results. There will be image, decription that descript the data set and the visualization part of the project.
-  
+### Visualizations
+Visualizations will be created to show the characteristics of the coffee that are affected by region, altitude and producer, as well as maps to show delineations of coffee production regions.
+
+### Google Slide
+Google slide draft is made. Everyone have access to google slide. We will update the google slide as we go on with the project.
+
+### Tableau
+![Capture](https://user-images.githubusercontent.com/96033992/170884923-a8f22d2c-5e4e-444f-a36e-4852fc6c3963.PNG)
+As you can see this images show the aroma from country of origin.
+We also have origin as filter for easier interative.
+
 ## Database - Julie
 
 The data generated from the machine learning model is stored in a Python DataFrame. Once the modeling is complete, SQLAlchemy is used to connect to our PostgreSQL coffee_data database to insert the modeled data into coffeeQualities table. To allow for machine learning some of the data was normalized and converted to numbers. To make this data more meaningful in visualizations and additional table was created in the database as a reference for the species code numbers. This Species table is joined with the coffee_data table to provide a descriptive species name rather than a numeric code. As the data modeling is finalized more tables and relationships may be added to the database.
@@ -139,3 +147,4 @@ The data generated from the machine learning model is stored in a Python DataFra
 [Python File](https://github.com/jkannis/Capstone/blob/main/DatabaseLoad.ipynb)
 
 ![Database ERD](https://github.com/jkannis/Capstone/blob/main/Resources/Hierarchical4_ERD.png)
+
