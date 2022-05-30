@@ -88,6 +88,6 @@ The data generated from the machine learning model is stored in a Python DataFra
 
 [SQL File](https://github.com/jkannis/Capstone/blob/main/QuickDBD-coffeeQualities.sql)
 
-[Python File](https://github.com/jkannis/Capstone/blob/main/toDatabase.ipynb)
+[Python File](https://github.com/jkannis/Capstone/blob/main/DatabaseLoad.ipynb)
 
-![Database ERD](https://github.com/jkannis/Capstone/blob/main/Resources/Hierarchical4_ERD.png)
+[Database ERD](https://github.com/jkannis/Capstone/blob/main/Resources/Hierarchical4_ERD.png)
