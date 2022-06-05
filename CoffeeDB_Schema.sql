@@ -58,9 +58,27 @@ CREATE TABLE "ArabicaRatings" (
      )
 );
 
+CREATE TABLE "Regions" (
+    "index" int   NOT NULL,
+    "Country" varchar   NOT NULL,
+    "Region" varchar   NOT NULL,
+    "Altitude" varchar   NOT NULL,
+    "latitude" int   NOT NULL,
+    "longitude" int   NOT NULL,
+    CONSTRAINT "pk_Regions" PRIMARY KEY (
+        "index"
+     )
+);
+
 ALTER TABLE "RobustaRatings" ADD CONSTRAINT "fk_RobustaRatings_species" FOREIGN KEY("species")
 REFERENCES "Species" ("speciesName");
 
+ALTER TABLE "RobustaRatings" ADD CONSTRAINT "fk_RobustaRatings_countryOfOrigin" FOREIGN KEY("countryOfOrigin")
+REFERENCES "Regions" ("Country");
+
 ALTER TABLE "ArabicaRatings" ADD CONSTRAINT "fk_ArabicaRatings_species" FOREIGN KEY("species")
 REFERENCES "Species" ("speciesName");
+
+ALTER TABLE "ArabicaRatings" ADD CONSTRAINT "fk_ArabicaRatings_countryOfOrigin" FOREIGN KEY("countryOfOrigin")
+REFERENCES "Regions" ("Country");
 
