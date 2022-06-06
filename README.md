@@ -137,8 +137,8 @@ The cleaned datasets were further modified before writing to the database as fol
 
 The Python geopy API was used to collect the latitude and longitude coordinates for each country in the datasets and store this information in a regions table. A join has been written to combine the region details with each row of the coffee data to allow for providing maps of coffee-growing regions in the final dashboard.
 
-![Database ERD](https://github.com/jkannis/Capstone/blob/database/CoffeeDB_ERD.png)
+![Database ERD](https://github.com/jkannis/Capstone/blob/main/database/CoffeeDB_ERD.png)
 
-[Database Schema](https://github.com/jkannis/Capstone/blob/database/CoffeeDB_Schema.sql)
+[Database Schema](https://github.com/jkannis/Capstone/blob/main/database/CoffeeDB_Schema.sql)
 
 [Python File](https://github.com/jkannis/Capstone/blob/main/database/CSV_toPostgres.ipynb)
