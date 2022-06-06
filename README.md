@@ -125,7 +125,17 @@ A Google slide presentation is being finalized by each team member.
 ![Capture](https://user-images.githubusercontent.com/96033992/170884923-a8f22d2c-5e4e-444f-a36e-4852fc6c3963.PNG)
 As you can see this images show the aroma from country of origin.
 We also have origin as filter for easier interative.
-
+![Aroma](https://user-images.githubusercontent.com/96033992/172128794-80403dea-74c4-4105-adc3-a0c8db5f00cd.png)
+This picture above show the aroma of the coffee by different type of processing method.
+![Processing method by region](https://user-images.githubusercontent.com/96033992/172128991-efa6f239-3937-4939-88f9-1b5bf33caa73.png)
+Wash/Wet is the most popular processing method for arabica.
+Natural and dry is the most popular method for robusta.
+![Most harvest year in region](https://user-images.githubusercontent.com/96033992/172129226-42bd57df-1583-4a28-ad6c-e1df5fd3d566.png)
+In 2012, Mexico harvested the most arabica out of all other country.
+Uganda harvested the most robusta out of all other country in 2013.
+![Quality Score in each country](https://user-images.githubusercontent.com/96033992/172129459-49d42c8f-1d3f-4a43-90e0-1d9a35c352c4.png)
+Mexico has the highest score for arabica.
+India has the highest score for robusta.
 ## Database - Julie
 
 This project uses a PostgreSQL database to store the data from the Arabica and Robusta coffee datasets. The database has been designed to hold the cleaned data as well as some reference tables to allow label creation from the normalized data for the final dashboard. 
