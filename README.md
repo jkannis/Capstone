@@ -21,7 +21,12 @@ The datasets being used are arabica_ratings_raw.csv and robusta_ratings_raw.csv.
 - Do different coffee bean species qualify differently based on the region or altitude?
 
 ## Machine Learning - Sarah
-We approached the third deliverable by expanding on our initial unsupervised ML models (KMeans & Hierarchical). As a group, we were interested in seeing how the descriptives of our coffee dataset (aroma, flavor, aftertaste, acidity, etc) grouped with the geographical components of our dataset (region, country of origin, etc). 
+# Capstone Deliverable 4
+We were able to take our Deliverable 3 feedback and update our branches accordingly (ensuring the code was properly uploaded). We were able to update our Google Slides to include spearker notes & insights for the presentation. 
+
+## Project Takeaways
+
+We were able to navigate our way through the coffee dataset to come up with an unsupervised machine learning modeling using KMeans clustering. Deliverable 3 largely reflects out findings in this capacity. It was also clear that we entered this project with more questions than we were able to answer. For furture considersation, on top of the work completed for Deliverable 3/4 & our final presentation, additional time, knowledge, and efforts in understanding the full foundation of the project process (from onset to completion) will yield stronger and more consistent results. The dataset we have considered is more than apt to be explored and picked apart further to find additional insights. 
 
 ## KMeans Clustering
 We continued our analysis by applying KMeans to several potential groupings as exhibited below:
@@ -125,17 +130,7 @@ A Google slide presentation is being finalized by each team member.
 ![Capture](https://user-images.githubusercontent.com/96033992/170884923-a8f22d2c-5e4e-444f-a36e-4852fc6c3963.PNG)
 As you can see this images show the aroma from country of origin.
 We also have origin as filter for easier interative.
-![Aroma](https://user-images.githubusercontent.com/96033992/172128794-80403dea-74c4-4105-adc3-a0c8db5f00cd.png)
-This picture above show the aroma of the coffee by different type of processing method.
-![Processing method by region](https://user-images.githubusercontent.com/96033992/172128991-efa6f239-3937-4939-88f9-1b5bf33caa73.png)
-Wash/Wet is the most popular processing method for arabica.
-Natural and dry is the most popular method for robusta.
-![Most harvest year in region](https://user-images.githubusercontent.com/96033992/172129226-42bd57df-1583-4a28-ad6c-e1df5fd3d566.png)
-In 2012, Mexico harvested the most arabica out of all other country.
-Uganda harvested the most robusta out of all other country in 2013.
-![Quality Score in each country](https://user-images.githubusercontent.com/96033992/172129459-49d42c8f-1d3f-4a43-90e0-1d9a35c352c4.png)
-Mexico has the highest score for arabica.
-India has the highest score for robusta.
+
 ## Database - Julie
 
 This project uses a PostgreSQL database to store the data from the Arabica and Robusta coffee datasets. The database has been designed to hold the cleaned data as well as some reference tables to allow label creation from the normalized data for the final dashboard. 
