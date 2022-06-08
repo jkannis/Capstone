@@ -130,6 +130,7 @@ A Google slide presentation is being finalized by each team member.
 ![Capture](https://user-images.githubusercontent.com/96033992/170884923-a8f22d2c-5e4e-444f-a36e-4852fc6c3963.PNG)
 As you can see this images show the aroma from country of origin.
 We also have origin as filter for easier interative.
+Dashboard: https://public.tableau.com/views/Capstone_16538416430700/Sheet3?:language=en-US&:display_count=n&:origin=viz_share_link
 
 ## Database - Julie
 
