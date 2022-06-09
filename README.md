@@ -130,6 +130,8 @@ A Google slide presentation is being finalized by each team member.
 ![Capture](https://user-images.githubusercontent.com/96033992/170884923-a8f22d2c-5e4e-444f-a36e-4852fc6c3963.PNG)
 As you can see this images show the aroma from country of origin.
 We also have origin as filter for easier interative.
+![Dashboard 1](https://user-images.githubusercontent.com/96033992/172737623-e3a36a20-2d01-4fb3-b64c-d5129782187b.png)
+
 Dashboard: https://public.tableau.com/app/profile/vileam.siv/viz/Capstone_16541442571740/QualityScoreineachcountry
 
 ## Database - Julie
